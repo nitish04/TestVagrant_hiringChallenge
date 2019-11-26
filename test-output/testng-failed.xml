@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [My App]">
+  <test name="Selenium-Suite(failed)">
+    <classes>
+      <class name="com.myComp.myTeam.testScript.TC_tv_004">
+        <methods>
+          <include name="preRequisite"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- com.myComp.myTeam.testScript.TC_tv_004 -->
+      <class name="com.myComp.myTeam.testScript.TC_tv_002">
+        <methods>
+          <include name="preRequisite"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- com.myComp.myTeam.testScript.TC_tv_002 -->
+      <class name="com.myComp.myTeam.testScript.TC_tv_003">
+        <methods>
+          <include name="preRequisite"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- com.myComp.myTeam.testScript.TC_tv_003 -->
+      <class name="com.myComp.myTeam.testScript.TC_tv_001">
+        <methods>
+          <include name="preRequisite"/>
+          <include name="endSession"/>
+        </methods>
+      </class> <!-- com.myComp.myTeam.testScript.TC_tv_001 -->
+      <class name="com.myComp.myTeam.Util.Prerequisite">
+        <methods>
+          <include name="initialize"/>
+          <include name="ending"/>
+        </methods>
+      </class> <!-- com.myComp.myTeam.Util.Prerequisite -->
+      <class name="com.myComp.myTeam.testScript.TC_tv_005">
+        <methods>
+          <include name="preRequisite"/>
+          <include name="endSession"/>
+          <include name="testCase"/>
+        </methods>
+      </class> <!-- com.myComp.myTeam.testScript.TC_tv_005 -->
+    </classes>
+  </test> <!-- Selenium-Suite(failed) -->
+</suite> <!-- Failed suite [My App] -->

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My App">
+    <test name="Selenium-Suite">
+        <classes>
+            <!-- Mandate for TestingTest cases -->
+            <class name="com.myComp.myTeam.Util.Prerequisite"/>
+
+            <!-- Add yTestingTest cases Below -->
+
+            <class name="com.myComp.myTeam.testScript.TC_tv_001"/>
+            <class name="com.myComp.myTeam.testScript.TC_tv_002"/>
+            <class name="com.myComp.myTeam.testScript.TC_tv_003"/>
+            <class name="com.myComp.myTeam.testScript.TC_tv_004"/>
+            <class name="com.myComp.myTeam.testScript.TC_tv_005"/>
+
+        </classes>
+    </test>
+</suite>
+
